@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Tech Weav</title>
-</head>
-<body>
-        <!-- nav part  -->
+  </head>
+  <body>
+    <!-- nav part  -->
     <header class="shadow-md bg-[#1a0b2e]">
       <div class="max-w-7xl mx-auto px-4">
         <div class="flex items-center justify-between h-16">
@@ -51,12 +51,15 @@
     </header>
 
     <main>
-        <!-- hero part  -->
+      <!-- hero part  -->
       <section
         class="w-full bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center px-4 text-center"
       >
         <!-- Circle + Microphone -->
-        <div class="relative mb-4 sm:mb-8 w-52 sm:w-44 lg:w-76 aspect-square">
+        <!-- Circle + Microphone -->
+        <div
+          class="relative  mb-4 sm:mb-8 sm:mt-[-200px] w-52 sm:w-44 lg:w-76 aspect-square mx-auto"
+        >
           <span
             class="absolute top-2 right-4 bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full animate-bounce shadow-lg"
           >
@@ -373,7 +376,6 @@
 
       <!-- Meet the Host part -->
       <section class="px-4 py-16 text-white bg-[#1a0b2e] slide-from-right">
-
         <h1 class="text-4xl font-bold text-center mb-12">Meet the Host</h1>
 
         <div
@@ -381,7 +383,6 @@
         >
           <!-- Host Image -->
           <div class="w-64 h-64 flex-shrink-0 host-image">
-
             <img
               src="./assets/host.png"
               alt="Alex Kumar"
@@ -440,64 +441,64 @@
       </section>
 
       <!-- footer part  -->
-    <footer
-      class="bg-[url('./assets/hero-bg.png')] bg-cover bg-center text-white py-50"
-    >
-      <div class=" ">
-        <!-- Brand -->
-        <h1
-          class="text-5xl font-bold max-w-6xl mx-auto text-center mb-10 mt-[-160px]"
-        >
-          Tech<span class="text-[#f408b8]">Wave</span>
-        </h1>
+      <footer
+        class="bg-[url('./assets/hero-bg.png')] bg-cover bg-center text-white py-50"
+      >
+        <div class=" ">
+          <!-- Brand -->
+          <h1
+            class="text-5xl font-bold max-w-6xl mx-auto text-center mb-10 mt-[-160px]"
+          >
+            Tech<span class="text-[#f408b8]">Wave</span>
+          </h1>
 
-        <!-- Platforms Icon -->
-        <div
-          class="flex sm:flex-row flex-wrap justify-center items-center gap-3 sm:gap-6 mb-10"
-        >
-          <div class="flex flex-col items-center gap-1 sm:gap-2">
-            <img
-              src="./assets/spotify.png"
-              alt=""
-              class="w-4 h-4 sm:w-5 sm:h-5 object-contain"
-            />
-            <h5 class="text-xs sm:text-sm">Spotify</h5>
+          <!-- Platforms Icon -->
+          <div
+            class="flex sm:flex-row flex-wrap justify-center items-center gap-3 sm:gap-6 mb-10"
+          >
+            <div class="flex flex-col items-center gap-1 sm:gap-2">
+              <img
+                src="./assets/spotify.png"
+                alt=""
+                class="w-4 h-4 sm:w-5 sm:h-5 object-contain"
+              />
+              <h5 class="text-xs sm:text-sm">Spotify</h5>
+            </div>
+
+            <div class="flex flex-col items-center gap-1 sm:gap-2">
+              <img
+                src="./assets/apple-podcast.png"
+                alt=""
+                class="w-4 h-4 sm:w-5 sm:h-5 object-contain"
+              />
+              <h5 class="text-xs sm:text-sm">Apple Podcasts</h5>
+            </div>
+
+            <div class="flex flex-col items-center gap-1 sm:gap-2">
+              <img
+                src="./assets/youtube.png"
+                alt=""
+                class="w-4 h-4 sm:w-5 sm:h-5 object-contain"
+              />
+              <h5 class="text-xs sm:text-sm">YouTube</h5>
+            </div>
+
+            <div class="flex flex-col items-center gap-1 sm:gap-2">
+              <img
+                src="./assets/twitter.png"
+                alt=""
+                class="w-4 h-4 sm:w-5 sm:h-5 object-contain"
+              />
+              <h5 class="text-xs sm:text-sm">Twitter</h5>
+            </div>
           </div>
 
-          <div class="flex flex-col items-center gap-1 sm:gap-2">
-            <img
-              src="./assets/apple-podcast.png"
-              alt=""
-              class="w-4 h-4 sm:w-5 sm:h-5 object-contain"
-            />
-            <h5 class="text-xs sm:text-sm">Apple Podcasts</h5>
-          </div>
-
-          <div class="flex flex-col items-center gap-1 sm:gap-2">
-            <img
-              src="./assets/youtube.png"
-              alt=""
-              class="w-4 h-4 sm:w-5 sm:h-5 object-contain"
-            />
-            <h5 class="text-xs sm:text-sm">YouTube</h5>
-          </div>
-
-          <div class="flex flex-col items-center gap-1 sm:gap-2">
-            <img
-              src="./assets/twitter.png"
-              alt=""
-              class="w-4 h-4 sm:w-5 sm:h-5 object-contain"
-            />
-            <h5 class="text-xs sm:text-sm">Twitter</h5>
-          </div>
+          <!-- Footer text -->
+          <p class="max-w-6xl mx-auto text-center text-sm text-gray-300">
+            © 2026 TechWave Podcast. All rights reserved.
+          </p>
         </div>
-
-        <!-- Footer text -->
-        <p class="max-w-6xl mx-auto text-center text-sm text-gray-300">
-          © 2026 TechWave Podcast. All rights reserved.
-        </p>
-      </div>
-    </footer>
+      </footer>
     </main>
-</body>
+  </body>
 </html>
