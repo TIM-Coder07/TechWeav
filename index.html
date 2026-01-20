@@ -6,6 +6,101 @@
     <title>Tech Weav</title>
 </head>
 <body>
-    
+        <!-- nav part  -->
+    <header class="shadow-md bg-[#1a0b2e]">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex items-center justify-between h-16">
+          <!-- Logo -->
+          <div class="flex-shrink-0">
+            <a href="#" class="text-2xl font-bold text-white">
+              Tech<span class="text-[#d706ca]">Wave</span>
+            </a>
+          </div>
+
+          <!-- Nav (Desktop) -->
+          <nav
+            class="hidden md:flex space-x-8 absolute left-1/2 transform -translate-x-1/2"
+          >
+            <a href="#" class="text-white hover:text-blue-600">Home</a>
+            <a href="#" class="text-white hover:text-blue-600">About</a>
+            <a href="#" class="text-white hover:text-blue-600">Services</a>
+            <a href="#" class="text-white hover:text-blue-600">Contact</a>
+          </nav>
+
+          <!-- Button (Desktop Only) -->
+          <div class="hidden md:block">
+            <a
+              href="#"
+              class="bg-[#fa558c] text-white px-5 py-2 rounded-md hover:bg-blue-700 transition"
+            >
+              Subscribe
+            </a>
+          </div>
+
+          <!-- Hamburger Menu (Mobile) -->
+          <div class="md:hidden">
+            <button id="menu-btn" class="text-gray-800 focus:outline-none">
+              <!-- 3 lines -->
+              <img src="/assets/hamburger-menu.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <!-- hero part  -->
+      <section
+        class="w-full h-screen bg-[url('/assets/hero-bg.png')] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center px-4 text-center"
+      >
+        <!-- Circle + Microphone -->
+        <div class="relative mb-4 sm:mb-8 w-52 sm:w-44 lg:w-76 aspect-square">
+          <span
+            class="absolute top-2 right-4 bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full animate-bounce shadow-lg"
+          >
+            New
+          </span>
+
+          <img
+            src="assets/hero-circle.png"
+            class="w-full h-full object-contain"
+          />
+
+          <img
+            src="/assets/microphone.png"
+            class="absolute top-1/2 left-1/2 w-24 sm:w-28 lg:w-34 -translate-x-1/2 -translate-y-1/2"
+          />
+        </div>
+
+        <!-- Text Content -->
+        <div class="max-w-xl">
+          <h1
+            class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4"
+          >
+            TechWev
+          </h1>
+          <h5 class="text-sm sm:text-base lg:text-lg text-gray-200 mb-6">
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </h5>
+
+          <!-- Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button
+              class="flex items-center gap-2 bg-green-600 text-white px-5 py-2 rounded-md hover:bg-green-700 transition"
+            >
+              <img src="/assets/spotify.png" alt="" class="w-5 h-5" />
+              Listen On Spotify
+            </button>
+            <button
+              class="flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition"
+            >
+              <img src="/assets/message.png" alt="" class="w-5 h-5" />
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
 </body>
 </html>
